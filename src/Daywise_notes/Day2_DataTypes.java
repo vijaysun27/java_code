@@ -47,6 +47,7 @@ public class Day2_DataTypes {
         //Collection of char
 
         String name = "Vijay";
+        String sport = "Cricket";
 
 
 
