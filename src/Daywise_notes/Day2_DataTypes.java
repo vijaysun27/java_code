@@ -49,6 +49,19 @@ public class Day2_DataTypes {
         String name = "Vijay";
         String sport = "Cricket";
 
+        // Variable Declaration
+        int num;
+        num=90;
+        long tel;
+        tel=99685214789L;
+
+        // Typecasting
+        int mark1 = 10;
+        double mark2 = mark1;
+
+        double mark3 = 90;
+        int mark4 = (int) mark3;
+
 
 
 
