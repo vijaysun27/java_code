@@ -38,6 +38,59 @@ public class Day3_Operators {
         System.out.println(a==b); //False
         System.out.println(a!=b); //True
 
+        // Assignment Operators
+        a = 50;
+
+        a+=5;
+        System.out.println(a);
+        a-=5;
+        System.out.println(a);
+        a*=5;
+        System.out.println(a);
+        a/=5;
+        System.out.println(a);
+        a%=5;
+        System.out.println(a);
+
+        //Logical Operators
+
+        int num=15;
+
+        System.out.println(num%3==0 && num%5==0);
+        System.out.println(num%2==0 && num%5==0);
+        //System.out.println(num%3==0 && num%5==0);
+
+        boolean is_num_div_3 = num%3==0;
+        boolean is_num_div_5 = num%5==0;
+        boolean is_num_div_2 = num%2==0;
+        boolean is_num_div_4 = num%4==0;
+        boolean is_num_div_with_3_and_5 = is_num_div_3 && is_num_div_5;
+        boolean is_num_div_with_2_or_5 = is_num_div_2 || is_num_div_5;
+        boolean is_num_div_with_2_and_5 = is_num_div_2 && is_num_div_5;
+        boolean is_num_div_with_2_or_4 = is_num_div_2 || is_num_div_4;
+
+        System.out.println("num is div by 3 and 5" + " "+is_num_div_with_3_and_5);
+        System.out.println("num is div by 2 or 5" + " "+is_num_div_with_2_or_5);
+        System.out.println("num is div by 2 and 5" + " "+is_num_div_with_2_and_5);
+        System.out.println("num is div by 2 or 4" + " "+is_num_div_with_2_or_4);
+
+        System.out.println(!true);
+
+        //Conditional Operator
+
+        int marks = 72;
+        String result = marks>= 40 ? "PASS" : "FAIL";
+        System.out.println(result);
+
+        double total = 2500;
+        boolean vip = true;
+        boolean non_vip = false;
+        double discount = non_vip ? total * 0.10 : 0;
+        double payable = total - discount;
+        System.out.println(payable);
+
+        //Bitwise operator
+
 
 
     }
