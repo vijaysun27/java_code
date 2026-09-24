@@ -1,6 +1,6 @@
 package Daywise_notes;
 
-public class Day1_Intro {
+public class Java_Intro {
     public static void main(String[] args){
         System.out.println("Hello I am Java");
     }

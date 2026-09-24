@@ -1,6 +1,6 @@
 package Daywise_notes;
 
-public class Day3_Operators {
+public class Operators {
     public static void main(String[] args){
         // Arithmetic Operators
         int a = 35;
@@ -90,6 +90,17 @@ public class Day3_Operators {
         System.out.println(payable);
 
         //Bitwise operator
+        a = 5;
+        b = 3;
+        System.out.println(a & b); //1
+        System.out.println(a | b); // 7
+        System.out.println(a ^ b);//6
+        a = 50;
+        System.out.println(a >> 1); // 25
+        System.out.println(a << 1); // 100 how
+
+        System.out.println(25 >> 2); // 25,12,6
+        System.out.println(25 << 2); // 25 50 100
 
 
 

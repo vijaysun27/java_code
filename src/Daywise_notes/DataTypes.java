@@ -1,6 +1,6 @@
 package Daywise_notes;
 
-public class Day2_DataTypes {
+public class DataTypes {
     public static void main(String[] args){
         //num
         byte a = -128;
