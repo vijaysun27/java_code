@@ -62,6 +62,19 @@ public class DataTypes {
         double mark3 = 90;
         int mark4 = (int) mark3;
 
+        var product = "MobilePhone";
+        var qty = 40;
+        var cost = 14999.99;
+        var warehouse_code = "B";
+        var is_available = true;
+
+        System.out.println("Product Type: "+product);
+        System.out.println("Available Quantity: "+ qty);
+        System.out.println("Price of the Phone: "+ cost);
+        System.out.println("In which warehouse the product is available? "+ warehouse_code);
+        System.out.println("Is the product availble? "+ is_available);
+
+
 
 
 
