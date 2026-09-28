@@ -1,4 +1,4 @@
-package Daywise_Assignments;
+package Daywise_Assignments.Day2;
 // Assignment from topics Datatypes,TypeCasing, Operators,Variables
 
 public class Assignment_1 {

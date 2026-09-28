@@ -1,4 +1,4 @@
-package Daywise_Assignments;
+package Daywise_Assignments.Day2;
 
 public class Assignment1_MiniProject {
     public static void main(String[] args){
