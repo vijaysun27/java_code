@@ -67,13 +67,5 @@ public class Assignment_1 {
         System.out.printf("Your Gross Salary: %.2f%n",gross_salary);
         System.out.printf("Tax Deductions: %.2f%n",tax_amount);
         System.out.printf("Your NetSalary: %.2f%n",net_salary);
-
-
-
-
-
-
-
-
     }
 }
