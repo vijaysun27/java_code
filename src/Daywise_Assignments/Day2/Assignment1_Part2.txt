@@ -4,8 +4,7 @@ Q1. An e-commerce application stores product quantity. Which data type would you
 We can use float and double data types.
 
 Q2. A banking system needs to store a very large whole number. What would you check before choosing int or long?
-We will check requirements such as:
-1. What is the maximum length of the whole number?
+We will check length of the whole number requirements 
 Because the data type int has a limit, if the whole number requirement is within the limit of int, we can use int; otherwise, we can use long data type.
 
 Q3. A tester expected 2.5 from 10/4 but got 2.0. Explain the cause and give two fixes.
@@ -18,10 +17,10 @@ Updating the code to "float discount = 12.5f" should fix the error because the f
 Q5. Explain = versus == using a login example.
 '=' assignment operator is assigning a value to a variable.
 '==' comparison operator checks whether two values are equal..
-String correctPassword = "Java123";
+String correctPassword = "Java123"; // '=' assignment operator
 String enteredPassword = "Java123";
 
-if (enteredPassword == correctPassword) {
+if (enteredPassword == correctPassword) { // '==' comparison operator
     System.out.println("Login successful");
 }
 
@@ -31,12 +30,11 @@ Q6. For login validation, when would you use && instead of ||?
 '||' OR operator is used when any one condition is true. In the login screen, a user can enter an email address or phone number to navigate to password screen.
 
 Q7. A counter must use its old value and then increment. Which is appropriate: x++ or ++x? Demonstrate.
-We can use X++ here because the requirement is to use the old value and then increment.
+We can use x++ here because the requirement is to use the old value and then increment.
 E.g.
 int x = 6
 System.out.println(x++);
-
-The system prints 6, then the x value is updated as 7. To conclude, 'x++' will use/print the value first and then increment, whereas '++x' will increment the value and then use/print it.
+The system prints 6, then the x value is incremented to 7. To conclude, 'x++' will use/print the value first and then increment, whereas '++x' will increment the value and then use/print it.
 
 Q8. The program compiles but CMD cannot find the main class. Name three checks.
 The three main checks are: check the class/file name, check the current directory and check the classpath/package name.
