@@ -13,16 +13,18 @@ public class practice_ground {
 //			System.out.println(cars[i]);
 //		}
 		
-		String[] fruits = new String[5];
-		fruits[0] = "apple";
-		fruits[1] = "grapes";
-		fruits[2] = "kiwi";
-		fruits[3] = "orange";
-		fruits[4] = "peach";
-		System.out.println(fruits[3]);
-		for(int i=0;i<fruits.length;i++) {
-			System.out.print(fruits[i]+" ");
-		}
+//		String[] fruits = new String[5];
+//		fruits[0] = "apple";
+//		fruits[1] = "grapes";
+//		fruits[2] = "kiwi";
+//		fruits[3] = "orange";
+//		fruits[4] = "peach";
+//		System.out.println(fruits[3]);
+//		for(int i=0;i<fruits.length;i++) {
+//			System.out.print(fruits[i]+" ");
+//		}
+		
+		int[] numbers = {10,20,30,40};
 	}
 
 }
